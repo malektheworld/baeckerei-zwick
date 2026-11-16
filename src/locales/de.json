@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Unsere Produkte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "call": "Kontakt aufnehmen",
+    "menu": "Menü öffnen",
+    "close": "Menü schließen",
+    "language": "Sprache wählen",
+    "primaryNavigation": "Hauptnavigation"
+  },
+  "common": {
+    "brand": "Bäckerei Zwick",
+    "tagline": "Gutes Brot. Gute Tage.",
+    "discover": "Produkte entdecken",
+    "allProducts": "Alle Produkte ansehen",
+    "learnMore": "Mehr erfahren",
+    "backHome": "Zur Startseite",
+    "placeholder": "Diese Information wird noch ergänzt.",
+    "productImageAlt": "Produktfoto: {name}",
+    "skip": "Zum Inhalt springen"
+  },
+  "home": {
+    "heroTagline": "Handwerk seit 1986",
+    "heroTitle": "Traditionelles Backhandwerk aus unserer Bäckerei",
+    "eyebrow": "Natürlich. Regional. Lecker.",
+    "title": "Frisch gebacken\njeden Tag.",
+    "intro": "Entdecken Sie unsere Auswahl an Backwaren.",
+    "values": [
+      {
+        "title": "Natürliche Zutaten",
+        "text": "Weitere Informationen werden ergänzt."
+      },
+      {
+        "title": "Handwerk mit Tradition",
+        "text": "Weitere Informationen werden ergänzt."
+      },
+      {
+        "title": "Mehr als nur Brot",
+        "text": "Ein Ort für Brot und Begegnung."
+      }
+    ],
+    "featured": "Unsere Klassiker",
+    "reviewsEyebrow": "Was unsere Kunden sagen",
+    "reviewsTitle": "Google Bewertungen",
+    "reviewsText": "Hier erscheinen Bewertungen, sobald ein verifizierter Google-Link oder echte Bewertungsdaten hinterlegt sind.",
+    "reviewsLink": "Alle Bewertungen auf Google ansehen",
+    "reviewsCardTitle": "Google Bewertungen",
+    "reviewsCardText": "Bewertungsdaten werden erst nach Bestätigung angezeigt.",
+    "aboutTitle": "Bäckerei Zwick",
+    "aboutText": "Weitere Informationen über die Bäckerei werden ergänzt, sobald verifizierte Angaben vorliegen.",
+    "mapMissing": "Kartenansicht folgt nach Bestätigung des Standorts."
+  },
+  "products": {
+    "eyebrow": "Unsere Auswahl",
+    "title": "Unsere Produkte",
+    "intro": "Entdecken Sie unsere Auswahl an Backwaren.",
+    "searchLabel": "Produkte suchen",
+    "searchPlaceholder": "Wonach suchen Sie?",
+    "categories": "Kategorien",
+    "all": "Alle Produkte",
+    "clear": "Suche und Filter zurücksetzen",
+    "results": "{count} Produkte",
+    "emptyTitle": "Keine Produkte gefunden",
+    "emptyText": "Passen Sie Ihre Suche an oder setzen Sie die Filter zurück."
+  },
+  "categories": {
+    "bread": "Brot",
+    "broetchen": "Brötchen",
+    "pastries": "Feingebäck",
+    "cookies": "Kekse",
+    "cakes": "Kuchen",
+    "snacks": "Snacks"
+  },
+  "contact": {
+    "eyebrow": "Wir freuen uns auf Ihre Nachricht",
+    "title": "Kontaktieren Sie uns",
+    "intro": "Haben Sie Fragen oder besondere Wünsche? Wir freuen uns auf Ihre Nachricht.",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "hours": "Öffnungszeiten",
+    "directions": "Wegbeschreibung",
+    "missing": "Noch nicht angegeben",
+    "addressValue": "Angerstraße 1\n30851 Langenhagen",
+    "hoursValue": "Montag–Freitag: 06:00–18:00\nSamstag: 06:00–12:00",
+    "phoneValue": "+49 511 742414",
+    "formTitle": "Nachricht an uns",
+    "formName": "Ihr Name",
+    "formEmail": "Ihre E-Mail",
+    "formSubject": "Betreff",
+    "formMessage": "Ihre Nachricht",
+    "formSend": "Nachricht senden",
+    "formNote": "Beim Absenden öffnet sich Ihr E-Mail-Programm.",
+    "formDefaultSubject": "Nachricht an die Bäckerei Zwick",
+    "openMap": "Route öffnen"
+  },
+  "about": {
+    "photosLabel": "Einblicke in unsere Bäckerei",
+    "vintageAlt": "Historische Straßenansicht mit der Bäckerei",
+    "vintageCaption": "Ein Blick in die Vergangenheit",
+    "interiorAlt": "Bäcker bei der traditionellen Arbeit in der Backstube",
+    "interiorCaption": "Handwerk in unserer Backstube",
+    "storyEyebrow": "Unsere Geschichte",
+    "storyTitle": "Tradition, die man schmeckt – seit 1986",
+    "storyP1": "Seit 1986 steht die Bäckerei Zwick für echtes Bäckerhandwerk, traditionelle Rezepte und die Liebe zum Backen.",
+    "storyP2": "Was einst mit unserem Großvater begann, wird heute von der nächsten Generation mit derselben Leidenschaft und Hingabe weitergeführt. Vom Vater bis zum Sohn – unser Handwerk und unsere Werte werden von Generation zu Generation weitergegeben.",
+    "storyP3": "Wir legen großen Wert auf Qualität, Frische und traditionelle Herstellung. Mit viel Erfahrung, sorgfältiger Handarbeit und ausgewählten Zutaten entstehen täglich Backwaren, die Tradition und Geschmack miteinander verbinden.",
+    "storyPromise": "Drei Generationen. Eine Leidenschaft. Ein Versprechen: echtes Handwerk seit 1986.",
+    "eyebrow": "Über uns",
+    "title": "Bäckerei Zwick",
+    "intro": "Tradition, die man schmeckt – seit 1986.",
+    "note": "Bis dahin verzichten wir auf nicht belegte Angaben zu Geschichte, Herkunft oder Herstellungsverfahren."
+  },
+  "legal": {
+    "imprintTitle": "Impressum",
+    "privacyTitle": "Datenschutzerklärung",
+    "imprintIntro": "Die gesetzlich erforderlichen Angaben müssen durch den Betreiber ergänzt und geprüft werden.",
+    "privacyIntro": "Diese Website lädt derzeit keine Analyse, Werbung, Karten oder Bewertungsdienste von Drittanbietern.",
+    "operator": "Name und Rechtsform des Betreibers",
+    "address": "Ladungsfähige Anschrift",
+    "contact": "Kontaktangaben",
+    "register": "Register- und Umsatzsteuerangaben, sofern zutreffend",
+    "hosting": "Hosting-Anbieter und Serverprotokolle ergänzen",
+    "rights": "Betroffenenrechte, Aufbewahrung und Kontakt zur Datenschutzanfrage ergänzen"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Diese Seite ist leider nicht verfügbar."
+  },
+  "footer": {
+    "links": "Schnelllinks",
+    "contact": "Kontakt",
+    "details": "Angerstraße 1 · 30851 Langenhagen",
+    "legal": "Rechtliches",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "meta": {
+    "home": "Frisch gebacken",
+    "products": "Unsere Produkte",
+    "contact": "Kontakt",
+    "about": "Über uns",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "notFound": "Seite nicht gefunden",
+    "product": "Produktdetails"
+  },
+  "descriptions": {
+    "home": "Bäckerei Zwick — frisch gebackene Backwaren.",
+    "products": "Entdecken Sie die Produktauswahl der Bäckerei Zwick.",
+    "contact": "Kontaktinformationen der Bäckerei Zwick.",
+    "about": "Informationen über die Bäckerei Zwick.",
+    "imprint": "Impressum der Bäckerei Zwick.",
+    "privacy": "Datenschutzhinweise der Bäckerei Zwick.",
+    "notFound": "Die angeforderte Seite wurde nicht gefunden.",
+    "product": "Produktdetails und Backwaren der Bäckerei Zwick."
+  },
+  "detail": {
+    "breadcrumbs": "Brotkrumennavigation",
+    "description": "{name} aus unserer Backstube. Entdecken Sie unsere Backwaren und sprechen Sie uns bei Fragen gern an.",
+    "valueFresh": "Täglich frisch gebacken",
+    "valueCraft": "Traditionelles Handwerk",
+    "valueClassic": "Aus unserer Backstube",
+    "related": "Das könnte Ihnen auch gefallen"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Our products",
+    "about": "About",
+    "contact": "Contact",
+    "call": "Get in touch",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "language": "Choose language",
+    "primaryNavigation": "Primary navigation"
+  },
+  "common": {
+    "brand": "Bäckerei Zwick",
+    "tagline": "Good bread. Better days.",
+    "discover": "Explore products",
+    "allProducts": "View all products",
+    "learnMore": "Learn more",
+    "backHome": "Back to home",
+    "placeholder": "This information will be added later.",
+    "productImageAlt": "Product photo: {name}",
+    "skip": "Skip to content"
+  },
+  "home": {
+    "heroTagline": "Craftsmanship since 1986",
+    "heroTitle": "Traditional baking from our bakery",
+    "eyebrow": "Naturally made. Locally baked.",
+    "title": "Freshly baked\nevery day.",
+    "intro": "Explore our selection of baked goods.",
+    "values": [
+      {
+        "title": "Quality ingredients",
+        "text": "More information will be added."
+      },
+      {
+        "title": "Traditional craft",
+        "text": "More information will be added."
+      },
+      {
+        "title": "More than bread",
+        "text": "A place for bread and community."
+      }
+    ],
+    "featured": "Our classics",
+    "reviewsEyebrow": "What our customers say",
+    "reviewsTitle": "Google reviews",
+    "reviewsText": "Reviews will appear here once a verified Google link or genuine review data is provided.",
+    "reviewsLink": "View all reviews on Google",
+    "reviewsCardTitle": "Google reviews",
+    "reviewsCardText": "Review data will appear once verified details are provided.",
+    "aboutTitle": "Bäckerei Zwick",
+    "aboutText": "More information about the bakery will be added when verified details are available.",
+    "mapMissing": "Map preview will be added once the location is confirmed."
+  },
+  "products": {
+    "eyebrow": "Our selection",
+    "title": "Our products",
+    "intro": "Explore our selection of baked goods.",
+    "searchLabel": "Search products",
+    "searchPlaceholder": "What are you looking for?",
+    "categories": "Categories",
+    "all": "All products",
+    "clear": "Clear search and filters",
+    "results": "{count} products",
+    "emptyTitle": "No products found",
+    "emptyText": "Adjust your search or reset the filters."
+  },
+  "categories": {
+    "bread": "Bread",
+    "broetchen": "Bread rolls",
+    "pastries": "Pastries",
+    "cookies": "Cookies",
+    "cakes": "Cakes",
+    "snacks": "Snacks"
+  },
+  "contact": {
+    "eyebrow": "We would love to hear from you",
+    "title": "Get in touch",
+    "intro": "Questions or special requests? We would love to hear from you.",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Opening hours",
+    "directions": "Directions",
+    "missing": "Not provided yet",
+    "addressValue": "Angerstraße 1\n30851 Langenhagen",
+    "hoursValue": "Monday–Friday: 06:00–18:00\nSaturday: 06:00–12:00",
+    "phoneValue": "+49 511 742414",
+    "formTitle": "Send us a message",
+    "formName": "Your name",
+    "formEmail": "Your email",
+    "formSubject": "Subject",
+    "formMessage": "Your message",
+    "formSend": "Send message",
+    "formNote": "Submitting opens your email app with the message prepared.",
+    "formDefaultSubject": "Message to Bäckerei Zwick",
+    "openMap": "Open directions"
+  },
+  "about": {
+    "photosLabel": "A look inside our bakery",
+    "vintageAlt": "Historic street scene with the bakery",
+    "vintageCaption": "A glimpse into the past",
+    "interiorAlt": "Bakers at work in the traditional bakery",
+    "interiorCaption": "Craftsmanship in our bakery",
+    "storyEyebrow": "Our story",
+    "storyTitle": "Tradition you can taste – since 1986",
+    "storyP1": "Since 1986, Bäckerei Zwick has stood for genuine baking craftsmanship, traditional recipes, and a love of baking.",
+    "storyP2": "What began with our grandfather is now carried on by the next generation with the same passion and dedication. From father to son, our craft and values are passed down from one generation to the next.",
+    "storyP3": "We place great importance on quality, freshness, and traditional preparation. With experience, careful handwork, and selected ingredients, we bake goods every day that bring tradition and flavor together.",
+    "storyPromise": "Three generations. One passion. One promise: genuine craftsmanship since 1986.",
+    "eyebrow": "About us",
+    "title": "Bäckerei Zwick",
+    "intro": "Tradition you can taste – since 1986.",
+    "note": "Until then, we are avoiding unverified claims about history, origins, or production methods."
+  },
+  "legal": {
+    "imprintTitle": "Legal notice",
+    "privacyTitle": "Privacy policy",
+    "imprintIntro": "The operator must complete and review the legally required information.",
+    "privacyIntro": "This website currently does not load analytics, advertising, maps, or third-party review services.",
+    "operator": "Operator name and legal form",
+    "address": "Serviceable postal address",
+    "contact": "Contact details",
+    "register": "Company and VAT registration details, if applicable",
+    "hosting": "Add hosting provider and server log information",
+    "rights": "Add data subject rights, retention, and privacy contact details"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "Sorry, this page is not available."
+  },
+  "footer": {
+    "links": "Quick links",
+    "contact": "Contact",
+    "details": "Angerstraße 1 · 30851 Langenhagen",
+    "legal": "Legal",
+    "rights": "All rights reserved."
+  },
+  "meta": {
+    "home": "Freshly baked",
+    "products": "Our products",
+    "contact": "Contact",
+    "about": "About",
+    "imprint": "Legal notice",
+    "privacy": "Privacy",
+    "notFound": "Page not found",
+    "product": "Product details"
+  },
+  "descriptions": {
+    "home": "Bäckerei Zwick — freshly baked goods.",
+    "products": "Explore the Bäckerei Zwick product selection.",
+    "contact": "Contact information for Bäckerei Zwick.",
+    "about": "Information about Bäckerei Zwick.",
+    "imprint": "Legal notice for Bäckerei Zwick.",
+    "privacy": "Privacy information for Bäckerei Zwick.",
+    "notFound": "The requested page could not be found.",
+    "product": "Product details and baked goods from Bäckerei Zwick."
+  },
+  "detail": {
+    "breadcrumbs": "Breadcrumb navigation",
+    "description": "{name} from our bakery. Explore our baked goods and get in touch if you have any questions.",
+    "valueFresh": "Freshly baked daily",
+    "valueCraft": "Traditional craft",
+    "valueClassic": "From our bakery",
+    "related": "You might also like"
+  }
+}
