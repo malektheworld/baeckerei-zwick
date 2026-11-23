@@ -154,12 +154,13 @@
     "emptyText": "Passen Sie Ihre Suche an oder setzen Sie die Filter zurück."
   },
   "categories": {
-    "bread": "Brot",
-    "broetchen": "Brötchen",
-    "pastries": "Feingebäck",
-    "cookies": "Kekse",
-    "cakes": "Kuchen",
-    "snacks": "Snacks"
+    "brot": "Brot",
+    "broetchen": "Br\u00f6tchen",
+    "kuchen": "Kuchen",
+    "hefeteig": "Hefeteig",
+    "blaetterteig": "Bl\u00e4tterteig",
+    "snacks": "Snacks",
+    "sahneteile": "Sahneteile"
   },
   "detail": {
     "breadcrumbs": "Brotkrumennavigation",

@@ -154,12 +154,13 @@
     "emptyText": "Adjust your search or reset the filters."
   },
   "categories": {
-    "bread": "Bread",
+    "brot": "Bread",
     "broetchen": "Bread rolls",
-    "pastries": "Pastries",
-    "cookies": "Cookies",
-    "cakes": "Cakes",
-    "snacks": "Snacks"
+    "kuchen": "Cakes",
+    "hefeteig": "Yeast dough",
+    "blaetterteig": "Puff pastry",
+    "snacks": "Snacks",
+    "sahneteile": "Cream pastries"
   },
   "detail": {
     "breadcrumbs": "Breadcrumb navigation",
