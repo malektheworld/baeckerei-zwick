@@ -1,6 +1,4 @@
 <script setup>
-import { products } from '../data/products'
-import ProductGrid from '../components/products/ProductGrid.vue'
 import ReviewsSection from '../components/home/ReviewsSection.vue'
 import { useI18n } from 'vue-i18n'
 import brandLogo from '../../img/brand/zwick-logo.svg'
@@ -26,13 +24,6 @@ const { t, tm } = useI18n()
         <h2>{{ value.title }}</h2><p>{{ value.text }}</p>
       </article>
     </div>
-  </section>
-  <section class="section wrap featured-section">
-    <div class="section-heading">
-      <div><p class="eyebrow">{{ t('products.eyebrow') }}</p><h2>{{ t('home.featured') }}</h2></div>
-      <RouterLink class="text-link" to="/produkte">{{ t('common.allProducts') }} <span aria-hidden="true">→</span></RouterLink>
-    </div>
-    <ProductGrid compact :products="products.slice(0, 4)" />
   </section>
   <ReviewsSection />
   <section class="home-details-band">
@@ -69,10 +60,6 @@ const { t, tm } = useI18n()
 .value-icon { color: var(--copper); font-size: 28px; }
 .value-grid h2 { margin: 6px 0 4px; font: 600 1rem var(--sans); letter-spacing: 0; }
 .value-grid p { max-width: 260px; margin: auto; color: var(--muted); font-size: .88rem; line-height: 1.45; }
-.featured-section { padding-block: 27px 25px; }
-.section-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 14px; }
-.section-heading h2 { margin-bottom: 0; }
-.section-heading .eyebrow { margin-bottom: 7px; }
 .home-details-band { padding-block: 25px; background: var(--cream); }
 .home-details-grid { display: grid; grid-template-columns: 1.35fr .8fr .9fr 1.1fr; align-items: center; gap: 22px; }
 .home-about .eyebrow { margin-bottom: 5px; }
@@ -97,8 +84,6 @@ const { t, tm } = useI18n()
   .value-grid { grid-template-columns: 1fr; padding-block: 15px; }
   .value-grid article { padding: 17px 5px; }
   .value-grid article + article { border-top: 1px solid #dacfc1; border-left: 0; }
-  .featured-section { padding-block: 45px; }
-  .section-heading { align-items: flex-start; flex-direction: column; }
   .home-details-grid { grid-template-columns: 1fr 1fr; gap: 18px 13px; }
   .home-about, .home-map-placeholder { grid-column: 1 / -1; }
 }

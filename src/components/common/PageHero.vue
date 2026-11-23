@@ -1,4 +1,4 @@
-<script setup>
+﻿<script setup>
 defineProps({ eyebrow: { type: String, required: true }, title: { type: String, required: true }, intro: { type: String, default: '' }, compact: Boolean, home: Boolean })
 </script>
 <template>
@@ -8,7 +8,7 @@ defineProps({ eyebrow: { type: String, required: true }, title: { type: String, 
 </template>
 
 <style scoped>
-.page-hero { position: relative; display: flex; min-height: 365px; align-items: center; overflow: hidden; color: white; background-color: #2d1b10; background-image: linear-gradient(90deg, rgb(23 15 10 / 82%) 0%, rgb(33 21 12 / 70%) 38%, rgb(33 21 12 / 8%) 100%), url('/images/products/bread/mini-gerster-brot.png'); background-position: center, center; background-size: cover; }
+.page-hero { position: relative; display: flex; min-height: 365px; align-items: center; overflow: hidden; color: white; background-color: #2d1b10; background-image: linear-gradient(90deg, rgb(23 15 10 / 82%) 0%, rgb(33 21 12 / 70%) 38%, rgb(33 21 12 / 8%) 100%), url('../../../img/about/bakery-interior-sepia.png'); background-position: center, center; background-size: cover; }
 .page-hero::after { position: absolute; inset: 0; background: linear-gradient(0deg, rgb(22 14 9 / 12%), transparent 35%); content: ""; pointer-events: none; }
 .page-hero-compact { min-height: 275px; }
 .page-hero-home { min-height: 285px; }

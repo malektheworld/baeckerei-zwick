@@ -1,25 +1,25 @@
 {
   "nav": {
     "home": "Startseite",
-    "products": "Unsere Produkte",
     "about": "Über uns",
     "contact": "Kontakt",
     "call": "Kontakt aufnehmen",
     "menu": "Menü öffnen",
     "close": "Menü schließen",
     "language": "Sprache wählen",
-    "primaryNavigation": "Hauptnavigation"
+    "primaryNavigation": "Hauptnavigation",
+    "products": "Unsere Produkte"
   },
   "common": {
     "brand": "Bäckerei Zwick",
     "tagline": "Gutes Brot. Gute Tage.",
-    "discover": "Produkte entdecken",
-    "allProducts": "Alle Produkte ansehen",
     "learnMore": "Mehr erfahren",
     "backHome": "Zur Startseite",
     "placeholder": "Diese Information wird noch ergänzt.",
-    "productImageAlt": "Produktfoto: {name}",
-    "skip": "Zum Inhalt springen"
+    "skip": "Zum Inhalt springen",
+    "discover": "Produkte entdecken",
+    "allProducts": "Alle Produkte ansehen",
+    "productImageAlt": "Produktfoto: {name}"
   },
   "home": {
     "heroTagline": "Handwerk seit 1986",
@@ -41,7 +41,6 @@
         "text": "Ein Ort für Brot und Begegnung."
       }
     ],
-    "featured": "Unsere Klassiker",
     "reviewsEyebrow": "Was unsere Kunden sagen",
     "reviewsTitle": "Google Bewertungen",
     "reviewsText": "Hier erscheinen Bewertungen, sobald ein verifizierter Google-Link oder echte Bewertungsdaten hinterlegt sind.",
@@ -50,28 +49,8 @@
     "reviewsCardText": "Bewertungsdaten werden erst nach Bestätigung angezeigt.",
     "aboutTitle": "Bäckerei Zwick",
     "aboutText": "Weitere Informationen über die Bäckerei werden ergänzt, sobald verifizierte Angaben vorliegen.",
-    "mapMissing": "Kartenansicht folgt nach Bestätigung des Standorts."
-  },
-  "products": {
-    "eyebrow": "Unsere Auswahl",
-    "title": "Unsere Produkte",
-    "intro": "Entdecken Sie unsere Auswahl an Backwaren.",
-    "searchLabel": "Produkte suchen",
-    "searchPlaceholder": "Wonach suchen Sie?",
-    "categories": "Kategorien",
-    "all": "Alle Produkte",
-    "clear": "Suche und Filter zurücksetzen",
-    "results": "{count} Produkte",
-    "emptyTitle": "Keine Produkte gefunden",
-    "emptyText": "Passen Sie Ihre Suche an oder setzen Sie die Filter zurück."
-  },
-  "categories": {
-    "bread": "Brot",
-    "broetchen": "Brötchen",
-    "pastries": "Feingebäck",
-    "cookies": "Kekse",
-    "cakes": "Kuchen",
-    "snacks": "Snacks"
+    "mapMissing": "Kartenansicht folgt nach Bestätigung des Standorts.",
+    "featured": "Unsere Klassiker"
   },
   "contact": {
     "eyebrow": "Wir freuen uns auf Ihre Nachricht",
@@ -98,6 +77,8 @@
   },
   "about": {
     "photosLabel": "Einblicke in unsere Bäckerei",
+    "bakeryExteriorAlt": "Die Bäckerei Zwick in der Herbstsonne",
+    "bakeryExteriorCaption": "Unsere Bäckerei in herbstlichem Sonnenlicht",
     "vintageAlt": "Historische Straßenansicht mit der Bäckerei",
     "vintageCaption": "Ein Blick in die Vergangenheit",
     "interiorAlt": "Bäcker bei der traditionellen Arbeit in der Backstube",
@@ -108,6 +89,9 @@
     "storyP2": "Was einst mit unserem Großvater begann, wird heute von der nächsten Generation mit derselben Leidenschaft und Hingabe weitergeführt. Vom Vater bis zum Sohn – unser Handwerk und unsere Werte werden von Generation zu Generation weitergegeben.",
     "storyP3": "Wir legen großen Wert auf Qualität, Frische und traditionelle Herstellung. Mit viel Erfahrung, sorgfältiger Handarbeit und ausgewählten Zutaten entstehen täglich Backwaren, die Tradition und Geschmack miteinander verbinden.",
     "storyPromise": "Drei Generationen. Eine Leidenschaft. Ein Versprechen: echtes Handwerk seit 1986.",
+    "invitationEyebrow": "Eine kleine Auszeit",
+    "invitationTitle": "Kaffee & Kuchen?",
+    "invitationText": "Dann schauen Sie bei uns vorbei und genießen Sie eine gute Tasse Kaffee und ein leckeres Stück Kuchen. Wir freuen uns auf Ihren Besuch!",
     "eyebrow": "Über uns",
     "title": "Bäckerei Zwick",
     "intro": "Tradition, die man schmeckt – seit 1986.",
@@ -138,23 +122,44 @@
   },
   "meta": {
     "home": "Frisch gebacken",
-    "products": "Unsere Produkte",
     "contact": "Kontakt",
     "about": "Über uns",
     "imprint": "Impressum",
     "privacy": "Datenschutz",
     "notFound": "Seite nicht gefunden",
+    "products": "Unsere Produkte",
     "product": "Produktdetails"
   },
   "descriptions": {
     "home": "Bäckerei Zwick — frisch gebackene Backwaren.",
-    "products": "Entdecken Sie die Produktauswahl der Bäckerei Zwick.",
     "contact": "Kontaktinformationen der Bäckerei Zwick.",
     "about": "Informationen über die Bäckerei Zwick.",
     "imprint": "Impressum der Bäckerei Zwick.",
     "privacy": "Datenschutzhinweise der Bäckerei Zwick.",
     "notFound": "Die angeforderte Seite wurde nicht gefunden.",
+    "products": "Entdecken Sie die Produktauswahl der Bäckerei Zwick.",
     "product": "Produktdetails und Backwaren der Bäckerei Zwick."
+  },
+  "products": {
+    "eyebrow": "Unsere Auswahl",
+    "title": "Unsere Produkte",
+    "intro": "Entdecken Sie unsere Auswahl an Backwaren.",
+    "searchLabel": "Produkte suchen",
+    "searchPlaceholder": "Wonach suchen Sie?",
+    "categories": "Kategorien",
+    "all": "Alle Produkte",
+    "clear": "Suche und Filter zurücksetzen",
+    "results": "{count} Produkte",
+    "emptyTitle": "Keine Produkte gefunden",
+    "emptyText": "Passen Sie Ihre Suche an oder setzen Sie die Filter zurück."
+  },
+  "categories": {
+    "bread": "Brot",
+    "broetchen": "Brötchen",
+    "pastries": "Feingebäck",
+    "cookies": "Kekse",
+    "cakes": "Kuchen",
+    "snacks": "Snacks"
   },
   "detail": {
     "breadcrumbs": "Brotkrumennavigation",
