@@ -19,7 +19,8 @@
     "skip": "Zum Inhalt springen",
     "discover": "Produkte entdecken",
     "allProducts": "Alle Produkte ansehen",
-    "productImageAlt": "Produktfoto: {name}"
+    "productImageAlt": "Produktfoto: {name}",
+    "viewProduct": "Produkt ansehen"
   },
   "home": {
     "heroTagline": "Handwerk seit 1986",

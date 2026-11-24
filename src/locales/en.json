@@ -19,7 +19,8 @@
     "skip": "Skip to content",
     "discover": "Explore products",
     "allProducts": "View all products",
-    "productImageAlt": "Product photo: {name}"
+    "productImageAlt": "Product photo: {name}",
+    "viewProduct": "View product"
   },
   "home": {
     "heroTagline": "Craftsmanship since 1986",

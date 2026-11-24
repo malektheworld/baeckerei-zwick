@@ -1,8 +1,13 @@
 ﻿<script setup>
-defineProps({ eyebrow: { type: String, required: true }, title: { type: String, required: true }, intro: { type: String, default: '' }, compact: Boolean, home: Boolean })
+import productHeroImage from '../../../img/about/bakery-interior-sepia.png'
+
+defineProps({ eyebrow: { type: String, required: true }, title: { type: String, required: true }, intro: { type: String, default: '' }, compact: Boolean, home: Boolean, product: Boolean })
+const productHeroStyle = {
+  backgroundImage: `linear-gradient(90deg, rgb(23 15 10 / 82%) 0%, rgb(33 21 12 / 70%) 38%, rgb(33 21 12 / 8%) 100%), url(${productHeroImage})`,
+}
 </script>
 <template>
-  <section class="page-hero" :class="{ 'page-hero-compact': compact, 'page-hero-home': home }">
+  <section class="page-hero" :class="{ 'page-hero-compact': compact, 'page-hero-home': home, 'page-hero-product': product }" :style="product ? productHeroStyle : undefined">
     <div class="wrap hero-copy"><p class="eyebrow">{{ eyebrow }}</p><h1>{{ title }}</h1><p v-if="intro" class="hero-intro">{{ intro }}</p><slot /></div>
   </section>
 </template>
@@ -12,6 +17,7 @@ defineProps({ eyebrow: { type: String, required: true }, title: { type: String, 
 .page-hero::after { position: absolute; inset: 0; background: linear-gradient(0deg, rgb(22 14 9 / 12%), transparent 35%); content: ""; pointer-events: none; }
 .page-hero-compact { min-height: 275px; }
 .page-hero-home { min-height: 285px; }
+.page-hero-product { min-height: clamp(480px, 56vw, 670px); background-size: cover, cover; background-position: center, center; background-repeat: no-repeat; }
 .hero-copy { position: relative; z-index: 1; padding-block: 48px; }
 .hero-copy h1 { max-width: 700px; margin-bottom: 20px; }
 .page-hero .eyebrow { color: #f0c98e; }
@@ -23,6 +29,7 @@ defineProps({ eyebrow: { type: String, required: true }, title: { type: String, 
   .page-hero { min-height: 390px; background-position: center, center; }
   .page-hero-compact { min-height: 235px; }
   .page-hero-home { min-height: 340px; }
+  .page-hero-product { min-height: 550px; }
   .page-hero-home h1 { font-size: clamp(2.8rem, 13vw, 4rem); }
   .hero-copy { padding-block: 38px; }
 }

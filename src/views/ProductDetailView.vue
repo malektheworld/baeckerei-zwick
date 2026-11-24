@@ -29,7 +29,7 @@ const related = computed(() => {
       <div class="product-info">
         <p class="product-category">{{ t(`categories.${product.category}`) }}</p>
         <h1>{{ product.name[locale] }}</h1>
-        <p class="product-description">{{ product.description[locale] }}</p>
+        <p class="product-description">{{ product.description?.[locale] || t('detail.description', { name: product.name[locale] }) }}</p>
         <div class="product-values">
           <div><span aria-hidden="true">♧</span><p>{{ t('detail.valueFresh') }}</p></div>
           <div><span aria-hidden="true">♧</span><p>{{ t('detail.valueCraft') }}</p></div>

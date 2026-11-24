@@ -13,15 +13,13 @@ const { locale, t } = useI18n()
   <RouterLink class="product-card-link" :to="`/produkte/${product.slug}`">
   <article class="product-card" :class="{ 'product-card--compact': compact }">
     <div class="product-card__media">
-      <img
+      <div
         class="product-card__image"
-        :src="product.image"
-        :alt="t('common.productImageAlt', { name: product.name[locale] })"
-        :width="product.imageWidth"
-        :height="product.imageHeight"
-        loading="lazy"
-        decoding="async"
-      />
+        role="img"
+        :aria-label="t('common.productImageAlt', { name: product.name[locale] })"
+        :style="{ backgroundImage: `url(${product.image})` }"
+      >
+      </div>
     </div>
 
     <div class="product-card__content">
@@ -32,6 +30,7 @@ const { locale, t } = useI18n()
       <p v-if="product.description?.[locale]" class="product-card__description">
         {{ product.description[locale] }}
       </p>
+      <span v-if="!compact" class="product-card__action">{{ t('common.viewProduct') }} <span aria-hidden="true">→</span></span>
     </div>
   </article>
   </RouterLink>
@@ -40,38 +39,44 @@ const { locale, t } = useI18n()
 <style scoped>
 .product-card {
   overflow: hidden;
-  border: 1px solid #eee7df;
-  border-radius: var(--radius-md);
+  border: 1px solid #eee8df;
+  border-radius: 9px;
   background: #fffdfa;
-  box-shadow: 0 2px 10px rgb(35 25 15 / 3%);
+  box-shadow: 0 2px 7px rgb(35 25 15 / 3%);
+  transition: box-shadow .18s ease, transform .18s ease;
 }
 
 .product-card-link { display: block; color: inherit; text-decoration: none; }
 .product-card-link:focus-visible { outline: 3px solid var(--copper); outline-offset: 4px; border-radius: var(--radius-md); }
+.product-card-link:hover .product-card { transform: translateY(-2px); box-shadow: 0 8px 20px rgb(35 25 15 / 10%); }
 
 .product-card__media {
   display: grid;
   width: 100%;
-  aspect-ratio: 1.42;
+  aspect-ratio: 4 / 3;
   place-items: center;
   overflow: hidden;
   background: #f5eee4;
 }
 
 .product-card__image {
-  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 62%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .product-card__content {
-  padding: 15px 16px 18px;
+  display: grid;
+  min-height: 58px;
+  align-content: center;
+  justify-items: center;
+  padding: 9px 12px 11px;
 }
 
 .product-card__category {
-  margin-bottom: 4px;
+  display: none;
   color: var(--copper);
   font-size: .7rem;
   font-weight: 750;
@@ -80,8 +85,9 @@ const { locale, t } = useI18n()
 }
 
 .product-card__title {
-  margin-bottom: 6px;
-  font-size: 1.3rem;
+  margin: 0;
+  font: 600 1.05rem var(--serif);
+  text-align: center;
 }
 
 .product-card__description {
@@ -89,6 +95,13 @@ const { locale, t } = useI18n()
   color: var(--muted);
   font-size: .9rem;
 }
+
+.product-card__action {
+  display: none;
+}
+
+.product-card__action span { transition: transform .18s ease; }
+.product-card-link:hover .product-card__action span { transform: translateX(3px); }
 
 .product-card--compact {
   border-color: #e7dfd5;
@@ -117,7 +130,8 @@ const { locale, t } = useI18n()
 }
 
 .product-card--compact .product-card__category,
-.product-card--compact .product-card__description {
+.product-card--compact .product-card__description,
+.product-card--compact .product-card__action {
   display: none;
 }
 
@@ -129,9 +143,8 @@ const { locale, t } = useI18n()
 }
 
 @media (max-width: 600px) {
-  .product-card__media { aspect-ratio: 1.15; }
-  .product-card__content { padding: 12px; }
-  .product-card__title { font-size: 1.12rem; }
+  .product-card__content { min-height: 52px; padding: 8px; }
+  .product-card__title { font-size: 1rem; }
   .product-card__description { font-size: .82rem; }
   .product-card--compact .product-card__media { aspect-ratio: 1; }
 }

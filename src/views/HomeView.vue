@@ -1,9 +1,17 @@
 <script setup>
 import ReviewsSection from '../components/home/ReviewsSection.vue'
+import ProductGrid from '../components/products/ProductGrid.vue'
 import { useI18n } from 'vue-i18n'
+import { products } from '../data/products'
 import brandLogo from '../../img/brand/zwick-logo.svg'
 
 const { t, tm } = useI18n()
+const classicProducts = [...products]
+for (let index = classicProducts.length - 1; index > 0; index -= 1) {
+  const randomIndex = Math.floor(Math.random() * (index + 1))
+  ;[classicProducts[index], classicProducts[randomIndex]] = [classicProducts[randomIndex], classicProducts[index]]
+}
+classicProducts.length = Math.min(4, classicProducts.length)
 </script>
 
 <template>
@@ -23,6 +31,15 @@ const { t, tm } = useI18n()
         <span class="value-icon" aria-hidden="true">{{ ['✳', '♧', '♡'][index] }}</span>
         <h2>{{ value.title }}</h2><p>{{ value.text }}</p>
       </article>
+    </div>
+  </section>
+  <section class="classic-section">
+    <div class="wrap">
+      <div class="classic-heading">
+        <h2>{{ t('home.featured') }}</h2>
+        <RouterLink class="text-link" to="/produkte">{{ t('common.allProducts') }} <span aria-hidden="true">→</span></RouterLink>
+      </div>
+      <ProductGrid :products="classicProducts" />
     </div>
   </section>
   <ReviewsSection />
@@ -60,6 +77,11 @@ const { t, tm } = useI18n()
 .value-icon { color: var(--copper); font-size: 28px; }
 .value-grid h2 { margin: 6px 0 4px; font: 600 1rem var(--sans); letter-spacing: 0; }
 .value-grid p { max-width: 260px; margin: auto; color: var(--muted); font-size: .88rem; line-height: 1.45; }
+.classic-section { padding-block: 46px 56px; background: var(--cream); }
+.classic-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; margin-bottom: 19px; }
+.classic-heading h2 { margin: 0; font: 600 clamp(1.7rem, 3vw, 2.2rem) var(--serif); }
+.classic-heading .text-link { color: var(--copper-dark); font-weight: 650; text-decoration: none; }
+.classic-heading .text-link:hover { text-decoration: underline; }
 .home-details-band { padding-block: 25px; background: var(--cream); }
 .home-details-grid { display: grid; grid-template-columns: 1.35fr .8fr .9fr 1.1fr; align-items: center; gap: 22px; }
 .home-about .eyebrow { margin-bottom: 5px; }
@@ -86,5 +108,7 @@ const { t, tm } = useI18n()
   .value-grid article + article { border-top: 1px solid #dacfc1; border-left: 0; }
   .home-details-grid { grid-template-columns: 1fr 1fr; gap: 18px 13px; }
   .home-about, .home-map-placeholder { grid-column: 1 / -1; }
+  .classic-section { padding-block: 32px 40px; }
+  .classic-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
 }
 </style>
