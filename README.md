@@ -42,13 +42,14 @@ The supplied mockups contain sample contact data, prices, history claims, and te
 
 ## GitHub and deployment
 
-This folder was not in a Git repository and has no remote. After checking the desired GitHub repository and visibility, connect it with the provided URL:
+The `main` branch is deployed to GitHub Pages by `.github/workflows/deploy.yml` after each push. Vite uses `/baeckerei-zwick/` as the project site base path, and Vue Router uses that same base for its routes. The workflow copies the built `index.html` to `404.html` so direct visits and refreshes on nested routes can load the Vue app.
+
+To publish local changes, commit and push them to `main`:
 
 ```sh
-git remote add origin <repository-url>
 git add .
-git commit -m "Build Bäckerei Zwick website"
-git push -u origin main
+git commit -m "Describe the change"
+git push origin main
 ```
 
-The site is a static build in `dist/`. No production deployment or domain changes have been made. For eventual deployment, confirm hosting, SPA route fallback to `index.html`, domain ownership, DNS plan, and rollback approach first.
+The deployment runs in GitHub Actions after the push; check the repository's Actions tab if the published site does not update.
